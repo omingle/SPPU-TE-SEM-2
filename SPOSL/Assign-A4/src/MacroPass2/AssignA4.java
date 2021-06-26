@@ -177,5 +177,3 @@ public class AssignA4 {
 		passTwo.generateASM();
 	}
 }
-
-// 31331 - Om Ingle
