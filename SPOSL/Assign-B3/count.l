@@ -22,6 +22,6 @@ int main(int argc, char*argv[]){
 	yylex();
 	printf("Char Count:  %d\n", charcount);
 	printf("Word Count:  %d\n", wordcount); 
-    printf("Line Count:  %d\n", linecount); 
+	printf("Line Count:  %d\n", linecount); 
 	return 0;
 }
