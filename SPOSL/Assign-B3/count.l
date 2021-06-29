@@ -18,7 +18,7 @@ int yywrap(void){
 } 
 
 int main(int argc, char*argv[]){
-	yyin=fopen(argv[1], "r");
+	yyin = fopen(argv[1], "r");
 	yylex();
 	printf("Char Count:  %d\n", charcount);
 	printf("Word Count:  %d\n", wordcount); 
