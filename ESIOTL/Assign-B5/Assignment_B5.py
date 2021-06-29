@@ -8,11 +8,11 @@ while True:
 	i=GPIO.input(11)
 
         if i==1:                 #When output from motion sensor is LOW
- 	      print "Got something", i
+ 	      print "Something Detected", i
 #             GPIO.output(3, 0)  #Turn OFF LED
               time.sleep(0.5)
         elif(i==0):
-              print "Nothing detected",i
+              print "Nothing Detected",i
 #             GPIO.output(3, 1)  #Turn ON LED
               time.sleep(0.5)
 
